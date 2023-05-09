@@ -1,0 +1,149 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(13,26,45);
+    display: grid;
+    place-items: center;
+   
+}
+
+.container{
+    width: 280px;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21,39,63);
+    border-radius: 10px;
+
+}
+
+#main-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 20px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.hover-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    transition: opacity 0.25s;
+      
+}
+
+.img-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    color: white;
+    margin: 0;
+    font-size: 23px;
+
+}
+
+span{
+    color: white;
+    font-size: 14px;
+}
+
+.text-flex{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px 0 0 30px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.459);
+    margin: 10px 15px 0px 0px;
+    line-height: 1.5;
+    font-size: 14px;
+
+}
+
+h2{
+    color: rgb(11,255,255);
+    font-size: 16px;
+    margin: 20px 5px 10px 5px;
+    
+}
+
+.info-flex{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px rgba(255, 255, 255, 0.199) solid;
+    
+}
+
+.info-flex-1, .info-flex-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+#clock-text{
+    margin: 20px 5px 10px 5px;
+}
+
+.creator-flex{
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+#creator-img{
+    width: 30px;
+    border: 1px white solid;
+    border-radius: 50%;
+    margin: 15px 15px 20px 0px;
+}
+
+#creator-text{
+    margin: 0 0 5px 0;
+}
+
+.small-img{
+    margin: 10px 3px 0 0;
+}
+
+.hover-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+}
+
+.hover-img-div:hover {
+    opacity: 1;
+    background-color:rgba(11, 255, 255, 0.473); 
+}
+
+h1:hover{
+    color: rgb(11,255,255);
+}
+
+span:hover{
+    color: rgb(11,255,255);
+}
